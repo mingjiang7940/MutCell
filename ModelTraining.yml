@@ -202,4 +202,4 @@ dependencies:
       - xarray==2025.10.1
       - yarl==1.22.0
       - zarr==3.1.3
-prefix: D:\ProgramData\anaconda3\envs\DeepLearning
+prefix: /ProgramData/anaconda3/envs/DeepLearning
