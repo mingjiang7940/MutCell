@@ -1,5 +1,5 @@
 #'##########  ---- Paragraph <1> ----  ###########  
-#' Core objective:    MutClone prediction on single-cell data
+#' Core objective:    MutCell prediction on single-cell data
 #' 
 #'-Part [0]- load: datasets to be predicted and perform smoothing with 50 nearest neighbors
 #'-Part [1]- load: models
@@ -19,7 +19,7 @@
 #' 				pred.dataset.res.list_predLab.RDS  stores prediction scores + predicted labels
 #'############ [25-01-07] ############
 rm(list=ls())
-Device.path = "D:/Project/0.MutClone/Function"
+Device.path = "D:/Project/0.MutCell/Function"
 out.dir = "/WorkSpace/chengmingjiang/1.Project_sc2mutTL/3.Section/00.完成故事梳理后_整理版/S3_模型偶联Atlas/0.Data/新版本/05.模型预测外部单细胞独立数据集"
 if (!dir.exists(out.dir)) dir.create(out.dir, recursive = TRUE)
 cancer = "CRC"
