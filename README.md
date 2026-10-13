@@ -1,6 +1,6 @@
 # MutCell
 
-**Inferring Mutantion-associated Cell population from scRNA-seq data**
+**Mutation-associated Cell population inference in tumor single-cell transcriptomes**
 
 ---
 
