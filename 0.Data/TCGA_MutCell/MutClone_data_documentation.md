@@ -7,7 +7,7 @@ This document describes the directory organization and internal data structures 
 # 📁 Directory Structure
 
 ```bash
-0.MutClone/
+0.MutCell/
 ├── 0.Data/
 │   ├── Results/                                   # Stores model outputs (predictions, etc.)
 │   │
