@@ -57,4 +57,4 @@ MutCell consists of four main steps, corresponding to the project structure:
 
 ## 🎯 Summary
 
-**MutCell integrates multi-cancer transfer learning with atlas-based boundary optimization to enable accurate and scalable inference of mutant clones directly from scRNA-seq data.**
+**MutCell (Mutation-associated Cell population inference), an atlas-calibrated transfer learning framework for inferring driver mutation-associated cells.**
