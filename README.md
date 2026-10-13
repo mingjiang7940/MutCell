@@ -1,14 +1,14 @@
-# MutClone
+# MutCell
 
-**Inferring mutant clones from scRNA-seq data**
+**Inferring Mutantion-associated Cell population from scRNA-seq data**
 
 ---
 
 ## 🧠 Overview
 
-Understanding how somatic mutations shape cellular phenotypes requires identifying *mutant clones*—cell populations sharing the same mutation. However, most single-cell RNA sequencing (scRNA-seq) datasets lack matched genotype information.
+Linking driver mutation status to malignant-cell transcriptional heterogeneity at single-cell resolution remains challenging because sparse mutation coverage and limited matched genomic data hinder reliable mutation-status assignment.
 
-**MutClone** addresses this limitation by inferring mutant clones directly from gene expression profiles using a multi-cancer transfer learning framework.
+**MutCell** To link specific driver mutations to transcriptionally defined malignant cell states and populations in transcriptome-only scRNA-seq datasets. We developed MutCell, a transcriptome-based framework combining cross-cancer transfer learning from >8,000 tumors across 31 cancer types with calibration on a colorectal cancer single-cell atlas of ~1.01 million cells from 557 samples to identify driver mutation-associated cells without directly detecting mutant alleles.
 
 ---
 
