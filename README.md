@@ -14,7 +14,7 @@ Linking driver mutation status to malignant-cell transcriptional heterogeneity a
 
 ## 🚀 Workflow Overview
 
-MutClone consists of four main steps, corresponding to the project structure:
+MutCell consists of four main steps, corresponding to the project structure:
 
 ---
 
@@ -39,7 +39,7 @@ MutClone consists of four main steps, corresponding to the project structure:
 
 ---
 
-### **Step 4. MutClone Inference (`Step4_MutCloneInference`)**
+### **Step 4. MutCell Inference (`Step4_MutCloneInference`)**
 
 - Apply selected bulk-trained models to scRNA-seq data  
 - Predict **mutation probability for each cell**  
@@ -57,4 +57,4 @@ MutClone consists of four main steps, corresponding to the project structure:
 
 ## 🎯 Summary
 
-**MutClone integrates Multi-cancer transfer learning with atlas-based boundary optimization to enable accurate and scalable inference of mutant clones directly from scRNA-seq data.**
+**MutCell integrates multi-cancer transfer learning with atlas-based boundary optimization to enable accurate and scalable inference of mutant clones directly from scRNA-seq data.**
