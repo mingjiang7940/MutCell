@@ -9,7 +9,7 @@
 #' Paragraph <2>  visualization: plot density distributions after sample filtering
 #'############ [25-11-11] ############
 rm(list=ls())
-DevicePath = 'D:/Project/0.MutClone/Function'
+DevicePath = 'D:/Project/0.MutCell/Function'
 out.dir = "/WorkSpace/chengmingjiang/1.Project_sc2mutTL/3.Section/00.完成故事梳理后_整理版/S3_模型偶联Atlas/0.Data/新版本/02.过滤突变样本使样本标签近似细胞标签"
 if (!dir.exists(out.dir)) dir.create(out.dir, recursive = TRUE)
 cancer = "CRC" 
