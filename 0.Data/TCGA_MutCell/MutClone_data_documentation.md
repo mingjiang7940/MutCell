@@ -1,6 +1,6 @@
-# 📦 MutClone Data Documentation
+# 📦 MutCell Data Documentation
 
-This document describes the directory organization and internal data structures used in the MutClone project.
+This document describes the directory organization and internal data structures used in the MutCell project.
 
 ---
 
@@ -11,7 +11,7 @@ This document describes the directory organization and internal data structures 
 ├── 0.Data/
 │   ├── Results/                                   # Stores model outputs (predictions, etc.)
 │   │
-│   └── TCGA_MutClone/                             # TCGA-derived mutation-labeled expression datasets
+│   └── TCGA_MutCell/                             # TCGA-derived mutation-labeled expression datasets
 │       ├── CRC_TCGA/                              # Colorectal cancer (CRC)
 │       │   ├── mut.exprs.data.indel.RDS           # log2(TPM+1); used for single-cancer SVM models
 │       │   ├── mut.pancancer.exprs.data.indel.pkl # Upper-quantile normalized expression; used for dnnTL (Python)
